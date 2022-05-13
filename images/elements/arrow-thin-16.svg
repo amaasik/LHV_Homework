@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="13px" viewBox="0 0 13 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>arrow-thin-16</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Group" transform="translate(-1.000000, -1.333333)" stroke="#262633">
+            <line x1="2" y1="8" x2="13" y2="8" id="Path-25"></line>
+            <polyline id="Path-26" points="8.08823529 2.66666667 13.5 8 8.08823529 13.3333333"></polyline>
+        </g>
+    </g>
+</svg>

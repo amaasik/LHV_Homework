@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icons / Illustrative / platforms</title>
+    <g id="Icons-/-Illustrative-/-platforms" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Oval" stroke="#3B3B47">
+            <circle cx="40" cy="40" r="39.5"></circle>
+        </g>
+        <polyline id="Stroke-5062-Copy-2" stroke="#3B3B47" stroke-linecap="round" stroke-linejoin="round" points="49 34 43.555 40 40 35.99"></polyline>
+        <path d="M23.5,25.5 L23.5,25.2321429 C23.5,23.7221786 24.716,22.5 26.2142857,22.5 L58.7857143,22.5 C60.284,22.5 61.5,23.7221786 61.5,25.2321429 L61.5,48" id="Stroke-11-Copy" stroke="#3B3B47" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path d="M38.605286,52.5 L62.6244672,52.5 C63.6616368,52.5 64.5,51.7533333 64.5,50.8333333 L64.5,48.5 L38.5523773,48.5" id="Path" stroke="#3B3B47" stroke-linecap="round" stroke-linejoin="round"></path>
+        <g id="Group-Copy-6" transform="translate(18.500000, 27.500000)" stroke="#3B3B47" stroke-linejoin="round">
+            <path d="M18,28.3043478 C18,29.7936957 16.7593846,31 15.2307692,31 L2.76923077,31 C1.23923077,31 0,29.7936957 0,28.3043478 L0,2.69565217 C0,1.20765217 1.23923077,0 2.76923077,0 L15.2307692,0 C16.7593846,0 18,1.20765217 18,2.69565217 L18,28.3043478 L18,28.3043478 Z" id="Stroke-249" stroke-linecap="round"></path>
+            <line x1="0" y1="5" x2="18" y2="5" id="Stroke-252" stroke-linecap="round"></line>
+            <line x1="0" y1="26" x2="18" y2="26" id="Stroke-252" stroke-linecap="round"></line>
+            <line x1="7" y1="3" x2="11" y2="3" id="Stroke-252" stroke-linecap="round"></line>
+            <path d="M10,28.5 C10,29.052 9.552,29.5 9,29.5 C8.448,29.5 8,29.052 8,28.5 C8,27.948 8.448,27.5 9,27.5 C9.552,27.5 10,27.948 10,28.5 L10,28.5 Z" id="Stroke-253"></path>
+        </g>
+        <polyline id="Stroke-5062-Copy-3" stroke="#3B3B47" stroke-linecap="round" stroke-linejoin="round" points="30.5 42.5 26.87 46.5 24.5 43.8266667"></polyline>
+    </g>
+</svg>

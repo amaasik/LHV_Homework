@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="et">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="LHV homework" />
+    <meta name="author" content="Anni Maasik" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lapsekonto · LHV</title>
+    <link rel="shortcut icon" href="pildid/favicon.png" />
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="stylesheet.css" />
+    
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row">
+        <header class="col-md-12 col-lg-12">
+          <img id="logo" src="images/logo/lhv-logo.svg" />
+          <button id="hidden" class="btn darkGrey">SISENE</button>
+          <nav id="headerNavLeft" class="nav flex-column">
+            <a class="nav-link bold" href="https://www.lhv.ee/et/">Pank</a>
+            <a class="nav-link" href="https://fp.lhv.ee/?locale=et">Finantsportaal</a>
+            <a class="nav-link" href="https://investor.lhv.ee/">Investor</a>
+          </nav>
+          <ul id="headerNavRight" class="nav nav-pills">
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.lhv.ee/registration/cob/index.cfm?l3=et">Ava Konto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link btn-grey" href="https://www.lhv.ee/auth/login.cfm#/login">Sisene</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#!">EN</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#!">RU</a>
+            </li>
+          </ul>
+        </header>
+      </div>
+    </div>
+
+    <nav class="greyNav">
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link" href="#!">Igapäevapangandus</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#!">Raha Kasvatamine</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#!">Laen ja Liising</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#!">Kindlustus</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#!">Pension</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#!">Vajad Abi?</a>
+        </li>
+      </ul>
+    </nav>
+
+    <section>
+      <div class="container" role="banner" style="height: 500px">
+        <div class="desktop-bgs" style="display: block">
+          <div
+            id="header-img-bg"
+            style="
+              background-image: url('/images/headers/lapsekonto-kampaania-bg.svg');
+              height: 612px;
+              transform: translate3d(0px, 0px, 0px);
+            "
+          ></div>
+          <div
+            id="header-img-bg"
+            style="
+              background-image: url(/images/headers/lapsekonto-kampaania-fg.svg);
+              background-size: auto 100% !important;
+              background-repeat: no-repeat;
+            "
+          ></div>
+        </div>
+        <div class="row header-contents">
+          <div class="col-sm-7 col-md-5 col-md-offset-1 theme-dark">
+            <h1><strong>Väikeste sammudega esimese koduni</strong></h1>
+            <p>Ava lapsele Kasvukonto ja<br />kogu talle koduostu sissemakse</p>
+            <div class="arrows">
+              <p>
+                <a href="https://www.lhv.ee/et/lapsekonto#investeerimine"
+                  ><strong>Vaata lähemalt</strong>
+                  <img src="images/elements/arrow-thin-16.svg" alt=""
+                /></a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div style="background: #f8f8f8">
+      <section id="nav-bottom">
+        <nav class="navbar navbar-expand-sm justify-content-center">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Konto avamine</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Ligipääs kontole</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Noortekaart</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Investeerimine</a>
+            </li>
+            <li class="nav-item">
+              <a class="btn btn-dark btn-small" href="#">Ava lapsele konto</a>
+            </li>
+          </ul>
+        </nav>
+      </section>
+      <div class="container">
+        <div class="section-title justify-content-center">
+          <h2>
+            <strong>Lapse rahaasjad</strong>
+          </h2>
+        </div>
+
+        <p id="text">
+          Leia sobiv viis, kuidas aidata oma lapsel teha esimesed sammud
+          rahamaailmas ja investeerida tema tulevikku.
+        </p>
+      </div>
+
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-sm-6 col-md-3 card text-center">
+            <img src="images/logo/money.svg" alt="" />
+            <h3>
+              <strong>Lapsekonto</strong>
+            </h3>
+            <p>
+              Ava oma lapsele tasuta konto ja õpeta talle juba varakult, kuidas
+              käia rahaasjadega targalt ümber.
+            </p>
+            <p>
+              <a href="https://www.lhv.ee/et/lapsekonto#lapsekonto">
+                <strong>Loe lisa</strong
+                ><img
+                  id="line"
+                  src="images/elements/arrow-bold-16.svg"
+                  alt=""
+                />
+              </a>
+            </p>
+          </div>
+          <div class="col-sm-6 col-md-3 card text-center">
+            <img src="images/logo/card-a-side.svg" alt="" />
+            <h3>
+              <strong>Noortekaart</strong>
+            </h3>
+            <p>
+              Kasulike lisadega tasuta Noortekaardi saad tellida lapsele, kes on
+              vähemalt kuueaastane.
+            </p>
+            <p>
+              <a href="https://www.lhv.ee/et/lapsekonto#kaart">
+                <strong>Loe lisa</strong
+                ><img src="images/elements/arrow-bold-16.svg" alt="" />
+              </a>
+            </p>
+          </div>
+          <div class="col-sm-6 col-md-3 card text-center">
+            <img src="images/logo/stock-portfolio.svg" alt="" />
+            <h3>
+              <strong>Investeerimine</strong>
+            </h3>
+            <p>
+              Alusta lapse tulevikku investeerimist juba täna Kasvukonto abiga.
+            </p>
+            <p>
+              <a href="https://www.lhv.ee/et/lapsekonto#investeerimine">
+                <strong>Loe lisa</strong
+                ><img src="images/elements/arrow-bold-16.svg" alt="" />
+              </a>
+            </p>
+          </div>
+          <div class="col-sm-6 col-md-3 card text-center">
+            <img src="images/logo/phone-mobile.svg" alt="" />
+            <h3>
+              <strong>Mobiiliäpp</strong>
+            </h3>
+
+            <p>
+              Laadi lapsele alla LHV mobiiliäpp, milles ta näeb ainult seda
+              infot, mida tal päriselt vaja on.
+            </p>
+            <p>
+              <a href="https://www.lhv.ee/et/lapsekonto#mobiil">
+                <strong>Loe lisa</strong
+                ><img src="images/elements/arrow-bold-16.svg" alt=""
+              /></a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div style="background: #f9f0e9">
+      <div class="container">
+        <h2 class="section-title justify-content-center">
+          <strong>Lapsekonto</strong>
+        </h2>
+        <div class="flex-container">
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <div class="row">
+              <img src="images/logo/platforms.svg" alt="" />
+              <p>
+                Konto saad avada lihtsalt ja kiiresti internetipangas või
+                mobiiliäpis
+              </p>
+            </div>
+            <div class="row">
+              <img src="images/logo/0-eur.svg" alt="" />
+              <p>Konto avamine ja kasutamine on tasuta</p>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <div id="lapsekonto" class="row">
+              <img src="images/logo/phone-mobile.svg" alt="" />
+              <p>
+                Lapse kulutustel saad silma peal hoida ja pangakaardi limiite
+                muuta mugavalt LHV mobiiliäpis
+              </p>
+            </div>
+
+            <div class="row">
+              <img src="images/logo//pie.svg" alt="" />
+              <p>
+                Vanemana on sul oma lapse rahaasjadest ülevaade kunni lapse
+                täisealiseks saamiseni
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <h2>
+        <strong>Sammud konto avamiseks</strong>
+      </h2>
+
+      <p id="joon">
+        Lapsekonto saab kuni 17-aastasele (k.a) lapsele avada esindusõigusega
+        lapsevanem või eestkostja, kes on LHV klient. Konto avamiseks on vajalik
+        lapse kehtiv Eestis väljastatud ID-kaart, pass või elamisloakaart. Kui
+        alla 7-aastasel lapsel puudub kehtiv dokument, on vajalik lapsevanema
+        dokument. Kui sa ei ole veel LHV klient, siis alusta
+        <a href="">esmalt konto avamisega.</a>
+      </p>
+<div>
+  <table class="table-borderless d-none d-md-block">
+<tbody>
+  <tr>
+    <td> <img
+      class="media-object"
+      src="images/logo/1.svg"
+      alt=""
+    /></td>
+    <td><img class="media-object" src="images/logo/2.svg" alt=""></td>
+    <td><img class="media-object" src="images/logo/3.svg" alt=""></td>
+    <td><img class="media-object" src="images/logo/4.svg" alt=""></td>
+  </tr>
+  <tr>
+    <td>  <p>
+      Sisene LHV mobiiliäppi või internetipanka oma kasutajanime ja
+      Smart-ID, Mobiil-ID või ID-kaardiga.
+    </p></td>
+    <td><p>
+      Liigu menüüs rubriiki „Info ja seaded“ → „Lepingud“ või vajuta mobiiliäpis „+“ ikoonil ning tee „Lapsekonto“ lepingu sõlmimise valik.
+    </p></td>
+    <td><p id="joon">
+      Sõlmi <a  href="">lapsekonto leping</a>.
+    </p></td>
+    <td>
+      <p>
+        Vaheta ekraani ülaosas oma nime juures kasutajarolli, et alustada lapse kontol LHV teenuste kasutamist.
+      </p>
+    </td>
+  </tr>
+</tbody>
+  </table>
+</div>
+
+
+      <div class="process-timeline col-xs-12 d-block d-md-none" >
+      <div class="row" style="display:table ;">
+        <ul class="list-unstyled timeline multicolumn-timeline">
+          <li class="col-xs-12 col-md-3">
+            <div class="media">
+              <div class="media-left">
+                <img
+                  class="media-object"
+                  src="images/logo/1.svg"
+                  alt=""
+                />
+              </div>
+              <div class="media-body media-middle">
+                <p>
+                  Sisene LHV mobiiliäppi või internetipanka oma kasutajanime ja
+                  Smart-ID, Mobiil-ID või ID-kaardiga.
+                </p>
+              </div>
+            </div>
+          </li>
+          <li class="col-xs-12 col-md-3"><div class="media"><div class="media-left"><img class="media-object" src="images/logo/2.svg" alt=""></div><div class="media-body media-middle"><p>Liigu menüüs rubriiki „Info ja seaded“ → „Lepingud“ või vajuta mobiiliäpis „+“ ikoonil ning tee „Lapsekonto“ lepingu sõlmimise valik.</p></div></div></li>
+          <li class="col-xs-12 col-md-3"><div class="media"><div class="media-left"><img class="media-object" src="images/logo/3.svg" alt=""></div><div class="media-body media-middle"><p>Sõlmi <a href="">lapsekonto leping</a>.</p></div></div></li>
+          <li class="col-xs-12 col-md-3"><div class="media"><div class="media-left"><img class="media-object" src="images/logo/4.svg" alt=""></div><div class="media-body media-middle"><p>Vaheta ekraani ülaosas oma nime juures kasutajarolli, et alustada lapse kontol LHV teenuste kasutamist.</p></div></div></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+<div id="ligipääs" class="container">
+  <h2>
+    <strong>Ligipääs kontole</strong>
+  </h2>
+  <hr>
+  <button class="accordion">Limiidid ja õigused</button>
+  <div class="panel">
+    <p>Lapsekonto avamisel antakse kontol tehingute tegemise õigus esmalt ainult konto avanud lapsevanemale. Alates 7-aastasest lapsest võib vanem soovi korral võimaldada ka lapsele maksete tegemist internetipangas ja mobiiliäpis. Limiitide ja õiguste muutmiseks ning teisele vanemale ligipääsu andmiseks esita taotlus internetipangas lapse rollis rubriigis „Info ja seaded“ → „Kontod ja limiidid“.</p>
+  </div>
+  <hr>
+  <button class="accordion">Lapse ligipääs</button>
+  <div class="panel">
+    <p>Et laps näeks ise kiiresti ja mugavalt oma kontojääki internetipangas ja mobiiliäpis, saab lapsevanem lisada lapse kontole sisselogimisparooli ehk salasõna. Selleks tee internetipangas lapse rollis valik rubriigis „Info ja seaded“ → „Paroolid“ → „Sisselogimisparool“. Seejärel on su lapsel võimalik siseneda ise oma kontole isikliku kasutajanime ja parooliga, mis annab talle piiratud õigused: ta saab ainult kontojääki vaadata.</p>
+  </div>
+  <hr>
+  
+ </div>
+
+ <div style="background:#faf9f7 ;">
+  <div class="container">
+    <h2>
+      <strong>Noortekaart</strong>
+    </h2>
+    <div class="text-center"><p>Pangakaardi saab tellida lapsele alates 6.&nbsp;eluaastast internetipangas ja mobiiliäpis. Kaart on lapsele tasuta kuni 26.&nbsp;eluaasta täitumiseni. Kaardi saadame teile mugavalt postiga koju.</p></div>
+  
+    <section class="row mb150">
+
+      <div class="col-md-5 order-md-2 text-center">
+        <img class="bigCard" src="images/cards/noortekaart-neoon.png">
+       
+      </div>
+
+      <div class="col-md-7 order-md-1">
+       
+        <ul class="smallCheck">
+          <li>Tasuta pangakaart</li>
+          <li>Naudi soodustusi</li>
+          <li>Maksa kaardiga ja võid võita kuni 100€ tasku-ja 100€ investeerimisraha</li>
+          <li>Sinu ostud on kindlustatud</li>
+          <li>Vali oma värv  <input type="radio" name="cardColor" data-img ="neoon" data-text="neoonoranž" data-code="NYD" id="neonCard" ><input type="radio" id="black"><input type="radio" id="white"></li>
+        </ul>
+        <p>noortekaarti saad tellida, kui oled 25-aastane või noorem.</p>
+        <button class="btn btn-dark"><strong>Telli kaart</strong></button>
+        <div>
+        <a href=""><strong>Loe lisa</strong> <img src="images/elements/arrow-bold-16.svg" alt="">
+        </div><div>
+          <a href=""><strong>Tutvu meie kaardivalikuga</strong> <img src="images/elements/arrow-bold-16.svg" alt="">
+          </div>
+        </a>
+      </div>
+    </section>
+  </div>
+
+ </div>
+
+ <div class="container" id="invest">
+<h2>
+  <strong>Esimesed sammud investeerimises</strong>
+</h2>
+<div class="row" >
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="images/gen/kasvukonto-gen.jpg" alt="Avatar" style="width:300px;height:300px;">
+      </div>
+      <div class="flip-card-back">
+        <h1>John Doe</h1>
+        <p>Architect & Engineer</p>
+        <p>We love that guy</p>
+      </div>
+    </div>
+  </div>
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="images/headers/kk-kodu-thumb.png" alt="Avatar" style="width:300px;height:300px;">
+      </div>
+      <div class="flip-card-back">
+        <h1>John Doe</h1>
+        <p>Architect & Engineer</p>
+        <p>We love that guy</p>
+      </div>
+    </div>
+  </div>
+
+</div>
+   </div>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="navbar-expand-md">
+              <a>TULE KLIENDIKS</a>
+              <button
+                class="navbar-toggler"
+                data-toggle="collapse"
+                data-target="#navCollapse1"
+              >
+                +
+              </button>
+              <nav class="collapse navbar-collapse" id="navCollapse1">
+                <ul class="list-unstyled">
+                  <li>
+                    <a href="#!">Eraklient</a>
+                  </li>
+                  <li>
+                    <a href="#!">Äriklient</a>
+                  </li>
+                  <li>
+                    <a href="#!">Noortepank</a>
+                  </li>
+                  <li>
+                    <a href="#!">Lapsekonto</a>
+                  </li>
+                  <li>
+                    <a href="#!">Au-klient</a>
+                  </li>
+                  <li>
+                    <a href="#!">Privaatpangandus</a>
+                  </li>
+                  <li>
+                    <a href="#!">Ava konto</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            
+          </div>
+
+          <div class="col-md-3">
+            <div class="navbar-expand-md">
+              <a>KASULIKKU</a>
+              <button
+                class="navbar-toggler"
+                data-toggle="collapse"
+                data-target="#navCollapse2"
+              >
+                +
+              </button>
+              <nav class="collapse navbar-collapse" id="navCollapse2">
+                <ul class="list-unstyled">
+                  <li>
+                    <a href="#!">Hinnakiri ja tingimused</a>
+                  </li>
+                  <li>
+                    <a href="#!">Ettepanekud ja kaebused</a>
+                  </li>
+                  <li>
+                    <a href="#!">Turvalisus</a>
+                  </li>
+                  <li>
+                    <a href="#!">Teata petulehest</a>
+                  </li>
+                  <li>
+                    <a href="#!">Teenuste seis</a>
+                  </li>
+                  <li>
+                    <a href="#!">KKK</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="navbar-expand-md">
+              <a>LHV</a>
+              <button
+                class="navbar-toggler"
+                data-toggle="collapse"
+                data-target="#navCollapse3"
+              >
+                +
+              </button>
+              <nav class="collapse navbar-collapse" id="navCollapse3">
+                <ul class="list-unstyled">
+                  <li>
+                    <a href="#!">Ettevõttest</a>
+                  </li>
+                  <li>
+                    <a href="#!">Investorile</a>
+                  </li>
+                  <li>
+                    <a href="#!">Tööpakkumised</a>
+                  </li>
+                  <li>
+                    <a href="#!">Hea tegu</a>
+                  </li>
+                  <li>
+                    <a href="#!">Roheline LHV</a>
+                  </li>
+                  <li>
+                    <a href="#!">Finantsportaal</a>
+                  </li>
+                  <li>
+                    <a href="#!">Uudised</a>
+                  </li>
+                  <li>
+                    <a href="#!">Blogi</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="navbar-expand-md">
+              <a>KONTAKT</a>
+              <button
+                class="navbar-toggler"
+                data-toggle="collapse"
+                data-target="#navCollapse4"
+              >
+                +
+              </button>
+              <nav class="collapse navbar-collapse" id="navCollapse4">
+                <ul class="list-unstyled">
+                  <li>
+                    <a href="#!">Kontaktid</a>
+                  </li>
+                  <li>
+                    <a href="#!">Kontorid</a>
+                  </li>
+                  <li>
+                    <a href="#!">Broneeri kohtumisaeg</a>
+                  </li>
+                  <li>
+                    <a href="#!">Sularahaautomaadid</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            
+          </div>
+        </div>
+        <div id="contactIcos">
+          <a href="#!"><img src="images/small/insta.svg" /></a>
+          <a href="#!"><img src="images/small/youtube.svg" /></a>
+          <a href="#!"><img src="images/small/fb.svg" /></a>
+          <a href="#!"><img src="images/small/soundcloud.svg" /></a>
+        </div>
+
+        <p>
+          AS LHV Group, Tartu mnt 2, 10145, Tallinn. Oled finantsteenuseid
+          pakkuvate ettevõtete AS LHV Pank, AS LHV Finance, AS LHV Kindlustus ja
+          AS LHV Varahaldus veebilehel. Enne finantsteenuse lepingu sõlmimist
+          tutvu teenuse tingimustega või küsi lisainfot. Noteeringud on
+          viivitusega.
+        </p>
+      </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      var acc = document.getElementsByClassName("accordion");
+      var i;
+      
+      for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+          this.classList.toggle("active");
+          var panel = this.nextElementSibling;
+          if (panel.style.display === "block") {
+            panel.style.display = "none";
+          } else {
+            panel.style.display = "block";
+          }
+        });
+      }
+      </script>
+  </body>
+</html>

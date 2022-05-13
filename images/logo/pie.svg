@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>Icons / Illustrative / pie</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icons-/-Illustrative-/-pie" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="pie" stroke="#3B3B47">
+            <g id="Icons-/-Illustrative-/-Illustrative-/-Oval">
+                <circle id="Oval" cx="40" cy="40" r="39.5"></circle>
+            </g>
+            <g id="Stroke-1378-+-Stroke-1379" transform="translate(19.000000, 15.000000)" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.951417,4.09716599 C9.37994939,4.09716599 0,13.4792105 0,25.048583 C0,36.6200506 9.37994939,46 20.951417,46 C32.5228846,46 41.902834,36.6200506 41.902834,25.048583 L20.951417,25.048583 L20.951417,4.09716599 L20.951417,4.09716599 Z" id="Stroke-1378"></path>
+                <path d="M24.582996,21.417004 L46,21.417004 C46,9.59053441 36.4116073,0 24.582996,0 L24.582996,21.417004 L24.582996,21.417004 Z" id="Stroke-1379"></path>
+            </g>
+        </g>
+    </g>
+</svg>

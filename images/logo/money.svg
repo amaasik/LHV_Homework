@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>Icons / Illustrative / money</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icons-/-Illustrative-/-money" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="money" stroke="#3B3B47">
+            <g id="Icons-/-Illustrative-/-Illustrative-/-Oval">
+                <circle id="Oval" cx="40" cy="40" r="39.5"></circle>
+            </g>
+            <g transform="translate(17.000000, 30.000000)">
+                <g id="coin" transform="translate(0.000000, 12.606061)">
+                    <rect id="Rectangle" x="0.5" y="0.5" width="18.2857143" height="6.09090909" rx="1"></rect>
+                    <line x1="4.41964286" y1="0.787878788" x2="4.41964286" y2="7.09090909" id="Path-18"></line>
+                    <line x1="14.0625" y1="0.787878788" x2="14.0625" y2="7.09090909" id="Path-19"></line>
+                </g>
+                <g id="coin" transform="translate(23.303571, 6.303030)">
+                    <rect id="Rectangle" x="0.5" y="0.5" width="18.2857143" height="6.09090909" rx="1"></rect>
+                    <line x1="4.41964286" y1="0.787878788" x2="4.41964286" y2="7.09090909" id="Path-18"></line>
+                    <line x1="14.0625" y1="0.787878788" x2="14.0625" y2="7.09090909" id="Path-19"></line>
+                </g>
+                <g id="coin-copy" transform="translate(23.303571, 18.909091)">
+                    <rect id="Rectangle" x="0.5" y="0.5" width="18.2857143" height="6.09090909" rx="1"></rect>
+                    <line x1="4.41964286" y1="0.787878788" x2="4.41964286" y2="7.09090909" id="Path-18"></line>
+                    <line x1="14.0625" y1="0.787878788" x2="14.0625" y2="7.09090909" id="Path-19"></line>
+                </g>
+                <g id="coin" transform="translate(2.410714, 18.909091)">
+                    <rect id="Rectangle-Copy-4" x="0.5" y="0.5" width="18.2857143" height="6.09090909" rx="1"></rect>
+                    <line x1="4.41964286" y1="0.787878788" x2="4.41964286" y2="7.09090909" id="Path-18-Copy"></line>
+                    <line x1="14.0625" y1="0.787878788" x2="14.0625" y2="7.09090909" id="Path-19-Copy"></line>
+                </g>
+                <g id="coin" transform="translate(25.714286, 12.606061)">
+                    <rect id="Rectangle-Copy-4" x="0.5" y="0.5" width="18.2857143" height="6.09090909" rx="1"></rect>
+                    <line x1="4.41964286" y1="0.787878788" x2="4.41964286" y2="7.09090909" id="Path-18-Copy"></line>
+                    <line x1="14.0625" y1="0.787878788" x2="14.0625" y2="7.09090909" id="Path-19-Copy"></line>
+                </g>
+                <g id="coin-copy-2" transform="translate(25.714286, 0.000000)">
+                    <rect id="Rectangle-Copy-4" x="0.5" y="0.5" width="18.2857143" height="6.09090909" rx="1"></rect>
+                    <line x1="4.41964286" y1="0.787878788" x2="4.41964286" y2="7.09090909" id="Path-18-Copy"></line>
+                    <line x1="14.0625" y1="0.787878788" x2="14.0625" y2="7.09090909" id="Path-19-Copy"></line>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
