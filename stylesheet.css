@@ -569,7 +569,7 @@ ul.smallCheck>li {
     top: 0;
     left: 50%;
     width: 0;
-    border-left: 2px solid black;
+  
     height: 100%;
     z-index: 1;
     transform: translateX(-50%);
