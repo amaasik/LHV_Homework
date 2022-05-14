@@ -560,3 +560,95 @@ ul.smallCheck>li {
     text-align: left;
   }
   
+  
+
+.timeline::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 0;
+    border-left: 2px solid black;
+    height: 100%;
+    z-index: 1;
+    transform: translateX(-50%);
+  }
+  
+  .timeline-image {
+    position: relative;
+    z-index: 100;
+  }
+  
+    /* LHV mobiilipank */
+    div.col-md-6>img {
+      width: 300px;
+      float: right;
+      margin-right: 15px;
+      margin-top: 5px;
+      margin-bottom: 25px;
+    }
+    
+   
+    
+    #mobiiliäpp{
+     margin-left: 60px;
+    }
+  
+    ul {
+      padding-left: 20px;
+    }
+    ul.bulletlist,
+    .bulletlist ul {
+      list-style: none;
+      padding-left: 15px;
+    }
+    ul.bulletlist li,
+    .bulletlist ul li {
+      position: relative;
+    }
+    ul.bulletlist li::before,
+    .bulletlist ul li::before {
+      content: "•";
+      color: #99999e;
+      font-size: 12px;
+      position: absolute;
+      left: -15px;
+      line-height: inherit;
+      top: 0;
+    }
+  
+    ul.list-arrow {
+      list-style: none;
+      margin-left: 0;
+      padding-left: 0;
+    }
+    ul.list-arrow li {
+      padding-left: 1.5em;
+      padding-bottom: 8px;
+      text-indent: -1.5em;
+      line-height: 20px;
+    }
+    ul.list-arrow li:last-child {
+      padding-bottom: inherit;
+    }
+    ul.list-arrow li:before {
+      content: "";
+      background: url("images/elements/arrow-thin-16.svg") no-repeat;
+      display: inline-block;
+      position: relative;
+      vertical-align: middle;
+      white-space: nowrap;
+      width: 16px;
+      height: 16px;
+      margin-right: 8px;
+    }
+    ul.list-arrow li a {
+      text-decoration: none;
+      text-transform: none;
+    }
+  
+    #stores img{
+      height: 30px;
+      width: min-content;
+    }
