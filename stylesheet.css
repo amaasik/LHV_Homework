@@ -73,8 +73,7 @@
     background-color: #3b3b47;
     color: white;
   }
-  
-  /* greyNav */
+
   .greyNav {
     background-color: #f4f4f4;
     text-transform: uppercase;
@@ -83,9 +82,6 @@
     padding-bottom: 9px;
   }
   
- 
-  
-  /* Footer */
   footer {
     background-color: #f8f8f8;
     margin-top: 80px;
@@ -126,8 +122,7 @@
   footer>div.container>p>a {
     text-decoration: underline;
   }
-  
-  /* media queries */
+
   @media (min-width: 576px) {
     .container {
       max-width: 98%;
@@ -155,8 +150,7 @@
       padding-top: 0;
     }
   
-    
-  
+     
     #hidden {
       display: inline-block;
     }
@@ -166,7 +160,6 @@
     }
   
     
-  
     .navbar-toggler {
       display: inline-block;
       float: right;
@@ -304,7 +297,6 @@ h2 {
   letter-spacing: -0.5px;
   text-align: center;
 }
-
 
 
 .card img{
@@ -462,18 +454,6 @@ strong {
   padding: 7px 15px;
 }
 
-.darkGrey {
-  padding-left: 25px;
-  padding-right: 25px;
-  background-color: var(--darkGrey);
-  color: white;
-}
-
-.darkGrey:hover {
-  background-color: black;
-  color: white;
-}
-
 .smallCheck {
   -webkit-padding-start: 0px;
 }
@@ -492,10 +472,6 @@ ul.smallCheck>li {
   width: 382px;
 }
 
-.smallCard {
-  margin: 30px 5px 0px 5px;
-  width: 80px;
-}
 
 #hidden {
   display: none;
@@ -579,8 +555,7 @@ ul.smallCheck>li {
     position: relative;
     z-index: 100;
   }
-  
-    /* LHV mobiilipank */
+
     div.col-md-6>img {
       width: 300px;
       float: right;
@@ -589,9 +564,7 @@ ul.smallCheck>li {
       margin-bottom: 25px;
     }
     
-   
-    
-    #mobiiliäpp{
+     #mobiiliäpp{
      margin-left: 60px;
     }
   
